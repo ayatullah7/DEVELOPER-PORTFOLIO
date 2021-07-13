@@ -2,18 +2,20 @@
     color: red;
 
 }
-h2{
+h1,h2{
     font-family: 'Qahiri', sans-serif;
 font-family: 'Roboto', sans-serif;
 }
+
 .halfwidth{
     width: 50%;
     padding: 5%;
 }
-section{
+.flexible-container{
     display: flex;
     margin: 100px;
 }
+
 .halfwidth img{
     width: 80%;
     border-radius: 5%;
@@ -31,4 +33,34 @@ section{
 .top-banner{
     background-image: url(images/chef.png);
     background-repeat: no-repeat;
+}
+.secondarytitle{
+    color: orange;
+}
+
+.experience-area{
+    background-image: url(images/chef.png);
+    background-repeat: no-repeat;
+}
+
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    border-left: 10px solid;
+
+}
+#exp1{
+    border-image: linear-gradient(orange,cyan) 30;
+}
+#exp2{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,cyan) ;
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
